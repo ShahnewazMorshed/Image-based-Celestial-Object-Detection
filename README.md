@@ -1,6 +1,6 @@
 # Celestial Object Detection  
 **Author:** Mohammad Shahnewaz Morshed  
-**Date:** October 18, 2024  
+**Date:** May 11, 2024  
 
 ---
 
@@ -12,23 +12,24 @@ A statistical approach helps overcome these challenges by using measurable patte
 ---
 
 ### Objective  
-The objective of this project is to build a clear, statistical framework for identifying celestial objects from survey data. The notebook shows how basic exploratory analysis, feature scaling, and classical machine learning models; such as k-Nearest Neighbors, Decision Trees, and Random Forests, used to classify stars, galaxies, and quasars.  
-
+The objective of this project is to build a clear, statistical framework for identifying celestial objects from survey data. The notebook shows how basic exploratory analysis, feature scaling, and classical machine learning models — such as k-Nearest Neighbors, Decision Trees, and Random Forests — are used to classify stars, galaxies, and quasars.  
 
 ---
 
 ### Methodology  
-The dataset **Skyserver250k.csv** contains spectroscopic and photometric information of celestial objects labeled as *Star*, *Galaxy*, or *Quasar*. The workflow begins with basic data cleaning and inspection to check for missing values and remove non-informative fields. All features are standardized so that differences in scale do not bias the results.  
+The dataset **Skyserver250k.csv** contains spectroscopic and photometric information of celestial objects labeled as *Star*, *Galaxy*, or *Quasar*. The analytical process follows a simple and interpretable structure:  
 
-Exploratory analysis is then used to understand feature relationships and identify patterns in brightness, wavelength, and spectral intensity. After this, models are trained and compared using standard evaluation metrics such as accuracy, precision, recall, and F1-score.  
+1. **Data Preparation** — Cleaning, screening, and removing non-informative fields to ensure quality and consistency.  
+2. **Feature Standardization** — Scaling all variables to comparable ranges so that no single measurement dominates model training.  
+3. **Exploratory Data Analysis (EDA)** — Understanding how different features (such as redshift, brightness, and color indices) interact across object types.  
+4. **Model Development** — Applying classical statistical learning algorithms to detect patterns and separability among classes.  
+5. **Model Evaluation** — Comparing models through standard performance metrics including accuracy, precision, recall, and F1-score.  
+
+A detailed explanation of the full analytical process, including mathematical background and statistical reasoning, is available in the **[Methodology: Statistical Modeling of Celestial Object Detection (PDF)](https://github.com/ShahnewazMorshed/Image-based-Celestial-Object-Detection/blob/main/Methodology%20-%20Celestial%20Object%20Detection.pdf)** document.
 
 ---
 
 ### Python Notebook  
-**[Celestial_Object_Detection.ipynb](https://github.com/ShahnewazMorshed/Image-based-Celestial-Object-Detection/blob/main/Celestial_Object_Detection.ipynb)** demonstrates the full workflow from data import and cleaning to feature transformation, model training, and result visualization. It shows how statistical learning methods can be applied to classify astronomical objects using simple, explainable, and reproducible steps.
+**[Celestial_Object_Detection.ipynb](https://github.com/ShahnewazMorshed/Image-based-Celestial-Object-Detection/blob/main/Celestial_Object_Detection.ipynb)** demonstrates the complete workflow from data import and cleaning to feature transformation, model training, and visualization. It shows how statistical learning methods can be applied to classify astronomical objects using clear, explainable, and reproducible steps.
 
 ---
-
-
-
-
