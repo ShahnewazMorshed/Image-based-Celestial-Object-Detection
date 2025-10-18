@@ -25,7 +25,7 @@ Exploratory analysis is then used to understand feature relationships and identi
 ---
 
 ### Python Notebook  
-**Celestial_Object_Detection.ipynb** demonstrates the full workflow from data import and cleaning to feature transformation, model training, and result visualization. It shows how statistical learning methods can be applied to classify astronomical objects using simple, explainable, and reproducible steps.
+**[Celestial_Object_Detection.ipynb](https://github.com/ShahnewazMorshed/Image-based-Celestial-Object-Detection/blob/main/Celestial_Object_Detection.ipynb)** demonstrates the full workflow from data import and cleaning to feature transformation, model training, and result visualization. It shows how statistical learning methods can be applied to classify astronomical objects using simple, explainable, and reproducible steps.
 
 ---
 
